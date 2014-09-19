@@ -6,3 +6,4 @@ install:
   - pip install -r requirements.txt
 
 #script: python app.py
+build_image: vidyar/sample_img_app
