@@ -8,8 +8,10 @@ install:
 
 #script: python app.py
 #build_image: vidyar/sample_img_app
-build_image:
-  name: vidyar/sample_img_app
-  net: host
-  privileged: true
-  run_command: 'ls -al'
+
+build_image: shippable/minv2
+#build_image:
+ # name: shippable/minv2
+  #net: host
+  #privileged: true
+  #run_command: 'ls -al'
