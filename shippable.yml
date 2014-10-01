@@ -2,16 +2,16 @@ language: python
 
 python: 2.7
 
-before_install: sudo apt-get install python-dev
+#before_install: sudo apt-get install python-dev
 
 install:
   - pip install -r requirements.txt
 
 #script: python app.py
 
-build_image: vidyar/sample_img_app
+#build_image: vidyar/sample_img_app
 
-#build_image: shippable/minv2
+build_image: shippable/minv2
 #build_image:
  # name: shippable/minv2
   #net: host
