@@ -7,6 +7,8 @@ RUN apt-get upgrade
 # Install Python Setuptools
 RUN apt-get install -y python-setuptools
 
+RUN apt-get install python-dev
+
 # Install pip
 RUN easy_install pip
 
