@@ -2,7 +2,7 @@ language: python
 
 python: 2.7
 
-#before_install: sudo apt-get install python-dev
+before_install: sudo apt-get install python-dev
 
 install:
   - pip install -r requirements.txt
@@ -17,3 +17,4 @@ build_image: vidyar/sample_img_app
   #net: host
   #privileged: true
   #run_command: 'ls -al'
+cache: true
