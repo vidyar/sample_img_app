@@ -17,4 +17,4 @@ build_image: vidyar/sample_img_app
   #net: host
   #privileged: true
   #run_command: 'ls -al'
-cache: true
+#cache: true
