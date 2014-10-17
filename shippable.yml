@@ -9,7 +9,7 @@ install:
 
 #script: python app.py
 
-build_image:  vidyar/sample_img_app: 1.0.1
+build_image:  vidyar/sample_img_app:1.0.1
 
 #build_image: shippable/minv2
 #build_image:
