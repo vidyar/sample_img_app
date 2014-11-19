@@ -18,3 +18,8 @@ build_image:  vidyar/sample_img_app:latest
   #privileged: true
   #run_command: 'ls -al'
 #cache: true
+build_image:
+  - name: vidyar/sample_img_app:latest
+  - privileged: true 
+  - net: host 
+ # - run_command: script.sh
