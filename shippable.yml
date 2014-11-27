@@ -9,7 +9,7 @@ install:
 
 #script: python app.py
 
-build_image:  vidyar/sample_img_app:latest
+#build_image:  vidyar/sample_img_app:latest
 
 #build_image: shippable/minv2
 #build_image:
@@ -18,8 +18,8 @@ build_image:  vidyar/sample_img_app:latest
   #privileged: true
   #run_command: 'ls -al'
 #cache: true
+
 build_image:
-  - name: vidyar/sample_img_app:latest
-  - privileged: true 
-  - net: host 
- # - run_command: script.sh
+   name: vidyar/sample_img_app
+   net: host
+   privileged: true
