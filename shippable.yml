@@ -20,6 +20,6 @@ install:
 #cache: true
 
 build_image:
-   name: shippable/minv2
+   name:  vidyar/sample_img_app
    net: host
    privileged: true
