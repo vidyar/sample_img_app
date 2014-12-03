@@ -21,5 +21,5 @@ install:
 
 build_image:
    name:  vidyar/phpmongo
-   net: host
-   privileged: true
+   net: bridge
+   privileged: false
