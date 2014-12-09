@@ -20,6 +20,6 @@ commit_container: vidyar/sample_img_app
 #cache: true
 
 build_image:
-   name:  vidyar/phpmongo
+   name:  vidyar/phpmongo:1.2
    net: bridge
    privileged: false
