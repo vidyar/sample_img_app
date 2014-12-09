@@ -9,7 +9,7 @@ install:
 
 #script: python app.py
 
-commit_container: vidyar/sample_img_app:latest
+commit_container: vidyar/sample_img_app
 
 #build_image: shippable/minv2
 #build_image:
