@@ -2,8 +2,10 @@ language: python
 
 python:
    - 2.7
-   
-
+env:
+  - secure: dPfkGAWT6WS2vfLNhEmG+k4ewIzU+hdhPMb2Jh7RiF8e8h/SbaO/nmYEaCMVBNsDEtRqIhFjn35IVbFeoS52SlXFmZbkstljbfDfla4RH56WHVWlJXqVyEHVfWA0khsuC6rKcht9IsqkkdKI1oPQ4LbI33x1+N16WJy0c7lLSB1rxtS36sJujcxCcr6XkAPyX40rnSKvxYWZGF7/CkkfLYyFPVQ1gRpyYxmW19U214CG/NerF2FgOPNmnZS6WpKQGm2gQNTxWvtwPzPvHFaezpp3IZXKDV39hygh9b6inDCyxzvr/7piGwQAeqtocZCWje6fhvYNsV1iRONmyEivFg==
+  - var1=foo
+  - var2=bar
 before_install: true
 #sudo apt-get install python-dev
 
@@ -12,7 +14,7 @@ install:
 
 #script: python app.py
 
-commit_container: vidyar/sample_img_app
+#commit_container: vidyar/sample_img_app
 
 #build_image: shippable/minv2
 #build_image:
@@ -22,7 +24,3 @@ commit_container: vidyar/sample_img_app
   #run_command: 'ls -al'
 #cache: true
 
-build_image:
-   name:  vidyar/phpmongo:2.1
-   net: bridge
-   privileged: false
