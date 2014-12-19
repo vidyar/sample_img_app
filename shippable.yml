@@ -12,6 +12,7 @@ before_install: true
 install:
   - pip install -r requirements.txt
 
+
 #script: python app.py
 build_image: vidyar/sample_img_app
 #vauxoo/odoo-80-image-shippable-auto
