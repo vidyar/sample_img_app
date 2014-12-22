@@ -12,14 +12,16 @@ install:
 
 #script: python app.py
 
-commit_container: vidyar/sample_img_app
-image :
- type : docker
- build: true
- name : vidyar/sample_img_app:2.1
- tag  : latest
- cache : true
-# codePath : /home/avinci/src
+#commit_container: vidyar/sample_img_app
+images:
+  image:
+    build:
+      type: docker
+      # name: lala/foofoo
+      # tag: latest
+      # code_path: /src
+      
+
 #build_image: shippable/minv2
 #build_image:
  # name: shippable/minv2
