@@ -17,8 +17,8 @@ images:
   image:
     build:
       type: docker
-      name: vidyar/sample_img_app:2.1
-     # tag: latest
+      name: vidyar/sample_img_app
+      tag: 2.1
       code_path: /app.py
       
  
