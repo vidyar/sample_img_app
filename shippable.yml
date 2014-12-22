@@ -18,7 +18,7 @@ images:
     build:
       type: docker
       name: vidyar/sample_img_app
-      # tag: latest
+      tag: latest
       # code_path: /src
       
  
