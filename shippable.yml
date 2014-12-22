@@ -13,7 +13,13 @@ install:
 #script: python app.py
 
 commit_container: vidyar/sample_img_app
-
+image :
+ type : docker
+ build: true
+ name : vidyar/sample_img_app:2.1
+ tag  : latest
+ cache : true
+# codePath : /home/avinci/src
 #build_image: shippable/minv2
 #build_image:
  # name: shippable/minv2
@@ -22,7 +28,7 @@ commit_container: vidyar/sample_img_app
   #run_command: 'ls -al'
 #cache: true
 
-build_image:
-   name:  vidyar/phpmongo:2.1
-   net: host
-   privileged: false
+#build_image:
+ #  name:  vidyar/phpmongo:2.1
+  # net: host
+   #privileged: false
