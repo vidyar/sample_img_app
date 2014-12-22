@@ -18,8 +18,8 @@ images:
     build:
       type: docker
       name: vidyar/sample_img_app
-      tag: latest
-      # code_path: /src
+     # tag: latest
+      code_path: /app.py
       
  
 #build_image: shippable/minv2
