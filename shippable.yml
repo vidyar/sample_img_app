@@ -17,11 +17,11 @@ images:
   image:
     build:
       type: docker
-      # name: lala/foofoo
+      name: vidyar/sample_img_app
       # tag: latest
       # code_path: /src
       
-
+ 
 #build_image: shippable/minv2
 #build_image:
  # name: shippable/minv2
