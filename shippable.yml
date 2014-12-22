@@ -17,7 +17,7 @@ images:
   image:
     build:
       type: docker
-      name: vidyar/sample_img_app
+      name: vidyar/phpmongo
       tag: 2.1
       code_path: /app.py
       
