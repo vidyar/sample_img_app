@@ -12,7 +12,7 @@ install:
 
 #script: python app.py
 
-#commit_container: vidyar/sample_img_app
+#commit_container: vidyar/sample_img_app:2.1
 images:
   image:
     build:
