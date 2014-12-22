@@ -12,12 +12,12 @@ install:
 
 #script: python app.py
 
-#commit_container: vidyar/sample_img_app:2.1
+#commit_container: vidyar/sample_img_app
 images:
   image:
     build:
       type: docker
-      name: vidyar/sample_img_app
+      name: vidyar/sample_img_app:2.1
      # tag: latest
       code_path: /app.py
       
