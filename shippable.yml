@@ -17,9 +17,9 @@ images:
   image:
     build:
       type: docker
-      name: vidyar/phpmongo
-      tag: 2.1
-      code_path: /app.py
+      name: shippable/minv2
+      tag: beta
+      code_path: /root/vidyar/src
       
  
 #build_image: shippable/minv2
