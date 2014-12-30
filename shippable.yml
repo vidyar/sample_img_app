@@ -12,7 +12,7 @@ install:
 
 #script: python app.py
 
-commit_container: vidyar/sample_img_app
+commit_container: shipci/sample_img_app
 
 #build_image: shippable/minv2
 #build_image:
@@ -23,6 +23,6 @@ commit_container: vidyar/sample_img_app
 #cache: true
 
 build_image:
-   name:  vidyar/phpmongo:2.1
+   name:  shipci/sample_python
    net: host
    privileged: false
