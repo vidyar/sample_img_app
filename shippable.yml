@@ -25,4 +25,4 @@ commit_container: vidyar/sample_img_app
 build_image:
    name:  vidyar/phpmongo:2.1
    net: host
-   privileged: false
+   privileged: true
