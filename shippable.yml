@@ -4,7 +4,7 @@ python:
    - 2.7
    
 
-before_install: true
+before_install: ifconfig
 #sudo apt-get install python-dev
 
 install:
