@@ -22,7 +22,8 @@ install:
   #run_command: 'ls -al'
 #cache: true
 
-
+notifications:
+  irc: "chat.freenode.net#test"
 #build_image:
  #  name:  vidyar/phpmongo:2.1
 #   net: host
