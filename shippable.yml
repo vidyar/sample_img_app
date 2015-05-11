@@ -8,7 +8,7 @@ before_install: ifconfig
 #sudo apt-get install python-dev
 
 install:
-  - pip install -r requirements.txt
+  - sudo pip install -r requirements.txt
 
 #script: python app.py
 
