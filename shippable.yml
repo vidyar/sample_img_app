@@ -7,9 +7,7 @@ python:
 #before_install: ifconfig
 #sudo apt-get install python-dev
 
-install:
-  - sudo pip install -r requirements.txt
-
+install: true
 #script: python app.py
 
 #commit_container: vidyar/sample_img_app
