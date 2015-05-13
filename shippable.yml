@@ -3,7 +3,6 @@ language: python
 python:
    - 2.7
    
-
 #before_install: ifconfig
 #sudo apt-get install python-dev
 
@@ -19,7 +18,6 @@ install: true
   #privileged: true
   #run_command: 'ls -al'
 #cache: true
-
 
 notifications:
   irc: "chat.freenode.net#test-irc"
