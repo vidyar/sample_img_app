@@ -21,8 +21,3 @@ commit_container: shipci/sample_img_app
   #privileged: true
   #run_command: 'ls -al'
 #cache: true
-
-build_image:
-   name:  shipci/sample_python:17.1
-   net: host
-   privileged: true
