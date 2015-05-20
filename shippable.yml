@@ -8,7 +8,7 @@ before_install: true
 #sudo apt-get install python-dev
 
 install:
-  - pip install -r requirements.txt
+  - true
 
 #script: python app.py
 
