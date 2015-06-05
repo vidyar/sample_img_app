@@ -18,6 +18,9 @@ commit_container: shipci/sample_img_app
 
 after_script:
  - echo $test
+
+after_success:
+ - echo "success"
  
 #build_image: shippable/minv2
 #build_image:
