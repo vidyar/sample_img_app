@@ -2,7 +2,9 @@ language: python
 
 python:
    - 2.7
-   
+
+env:
+ - secure: oUHVNwRQbVDngr/vsSWUd6waFSZB4hkrskvix0UNK4xZUKGMY/yYOEKEC8iz7gY5x0O7B+kVssKlOMrimTt9LmhCCshoOwaeDJEcoztvvMrMwHnos95wjdh9QX9KgQqK9eSC25D98BW8TvIxiusaZK6fp0N544/6KRKOV0aj6AkzVUdNXvlCE+wEDSojZsnXrNUXK1bEIsHOHuO/gj/A5ns6mEestc1UU+MNTyJB8SBMCyD1YGjlNdw5N6uJrNOK79SGwlyBIEO74AWSAo1RT/EAsd7Mt2u/T1m9etX+nydDjlMNgzk0oUEEB2Bf97h6viPZrZUf1Ho6R6zxQfZSRA==
 
 before_install: true
 #sudo apt-get install python-dev
@@ -14,6 +16,9 @@ install:
 
 commit_container: shipci/sample_img_app
 
+after_script:
+ - echo $test
+ 
 #build_image: shippable/minv2
 #build_image:
  # name: shippable/minv2
