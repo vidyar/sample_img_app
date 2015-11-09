@@ -2,7 +2,8 @@ language: python
 
 python:
    - 2.7
-   
+build_image: quay.io/vidyar/sample_img_app
+ 
    
 #before_install: ifconfig
 #sudo apt-get install python-dev
