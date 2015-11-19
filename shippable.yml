@@ -16,6 +16,7 @@ script: echo $test
 
 #commit_container: vidyar/sample_img_app
 
+#pr
 
 #build_image:
  # name: shippable/minv2
