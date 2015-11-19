@@ -3,7 +3,7 @@ language: python
 python:
    - 2.7
    
-build_image: quay.io/vidyar/sample_img_app
+#build_image: quay.io/vidyar/sample_img_app
 env:
  - secure: PCpIHHqRJirDSBA8OfWHetS843NvchxCCMl/8U2PDMCaZ+lPD/LpX/qmuaEwoZ9beSOYnXlTD7AumLtkik1r15KLO8lo/Vk8PBkYsL9G6C9vOW64JzPISXAJbr4nfvAcRagzAmD2ZyU+83KvBoGHEYJCQ/rTQATM7ugQ/BVPMffyUdgRU6pnjCayEk60h/afg29PCsX48tvH3iUTA7DzKZLzmRNxaQU4dTkvU5grfLS4QOluJu1s2vCCq9ZLk0WpKC3RQ5YAF9mH3bzLz5IgCd4T6jdrr5i78kFkLEStmv389LXoNFshuK0fMO6aPmem8UBba1rLU7UAMgZX1HZxGw==
    
