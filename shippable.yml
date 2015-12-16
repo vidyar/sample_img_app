@@ -12,18 +12,3 @@ install:
 
 #script: python app.py
 
-commit_container: vidyar/sample_img_app
-
-#build_image: shippable/minv2
-#build_image:
- # name: shippable/minv2
-  #net: host
-  #privileged: true
-  #run_command: 'ls -al'
-#cache: true
-
-
-build_image:
-   name:  vidyar/phpmongo:2.1
-   net: host
-   privileged: true
